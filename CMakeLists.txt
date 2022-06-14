@@ -17,6 +17,7 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(rtt_ros2_interfaces REQUIRED)
 
 rtt_ros2_generate_interfaces_plugins(geometry_msgs)
